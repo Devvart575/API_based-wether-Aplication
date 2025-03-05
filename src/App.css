@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0c0c0c;
+    color: white;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .search-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .search-bar input {
+    flex: 1;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px 0 0 4px;
+    border-style: none;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    outline: none;
+  }
+
+  .search-bar button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+  }
+
+  .weather-info {
+    text-align: center;
+    /* margin-bottom: 20px; */
+  }
+
+  .weather-info h1 {
+    font-size: 36px;
+    margin: 0;
+    text-transform: capitalize;
+    font-family: Arial;
+  }
+
+  .weather-info .temp {
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 45px;
+  }
+
+  .details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .details div {
+    text-align: center;
+  }
+
+  .extra-info {
+    background-color: #2b2828;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 20px; */
+  }
+
+  .extra-info div {
+    text-align: center;
+  }
